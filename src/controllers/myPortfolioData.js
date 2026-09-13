@@ -1,8 +1,8 @@
 export const myPortfolioData = {
     "name": "Gungun Raj",
     "role": "web devloper",
-    "dob": "2008-11-12",
-    "address": "guuw",
+    "dob": "2007-04-11",
+    "address": "Purnia Bihar ",
     "phone": "8873938348",
     "email": "gungunr342@gmail.com",
     "about": "I’m a passionate Web Developer who enjoys creating responsive and user-friendly websites. I love turning ideas into functional web experiences and continuously learning new technologies. I’m currently focused on strengthening my skills in frontend and backend development through real-world projects.",
