@@ -1,0 +1,279 @@
+
+    <div class="form-page">
+
+        <div class="form-container">
+
+            <div class="form-header">
+
+                <p>PORTFOLIO BUILDER</p>
+
+                <h1>Enter Your Details</h1>
+
+                <span>
+                    Fill in your information to create your portfolio.
+                </span>
+
+            </div>
+
+
+            <form action="/portfolio-form" method="POST">
+
+
+                <!-- PERSONAL INFORMATION -->
+
+                <h2>Personal Information</h2>
+
+                <div class="form-grid">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your full name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="role">
+                            Professional Role
+                        </label>
+
+                        <input
+                            type="text"
+                            id="role"
+                            name="role"
+                            placeholder="e.g. Web Developer"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="dob">
+                            Date of Birth
+                        </label>
+
+                        <input
+                            type="date"
+                            id="dob"
+                            name="dob"
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="+91 XXXXX XXXXX"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="your@email.com"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="address">
+                        Address
+                    </label>
+
+                    <textarea
+                        id="address"
+                        name="address"
+                        rows="3"
+                        placeholder="Enter your address"
+                    ></textarea>
+
+                </div>
+
+
+                <!-- ABOUT -->
+
+                <h2>About Me</h2>
+
+                <div class="form-group">
+
+                    <label for="about">
+                        About Yourself
+                    </label>
+
+                    <textarea
+                        id="about"
+                        name="about"
+                        rows="5"
+                        placeholder="Write something about yourself..."
+                    ></textarea>
+
+                </div>
+
+
+                <!-- EDUCATION -->
+
+                <h2>Education</h2>
+
+                <div class="form-grid">
+
+                    <div class="form-group">
+
+                        <label for="degree">
+                            Degree
+                        </label>
+
+                        <input
+                            type="text"
+                            id="degree"
+                            name="degree"
+                            placeholder="e.g. B.Sc Computer Science"
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="institute">
+                            College / Institute
+                        </label>
+
+                        <input
+                            type="text"
+                            id="institute"
+                            name="institute"
+                            placeholder="Enter college name"
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="year">
+                            Year
+                        </label>
+
+                        <input
+                            type="text"
+                            id="year"
+                            name="year"
+                            placeholder="2023 - 2026"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- SKILLS -->
+
+                <h2>Skills</h2>
+
+                <div class="form-group">
+
+                    <label for="skills">
+                        Your Skills
+                    </label>
+
+                    <input
+                        type="text"
+                        id="skills"
+                        name="skills"
+                        placeholder="HTML, CSS, JavaScript, Node.js"
+                    >
+
+                    <small>
+                        Separate skills using commas.
+                    </small>
+
+                </div>
+
+
+                <!-- SOCIAL LINKS -->
+
+                <h2>Social Links</h2>
+
+                <div class="form-grid">
+
+                    <div class="form-group">
+
+                        <label for="github">
+                            GitHub
+                        </label>
+
+                        <input
+                            type="url"
+                            id="github"
+                            name="github"
+                            placeholder="https://github.com/username"
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="linkedin">
+                            LinkedIn
+                        </label>
+
+                        <input
+                            type="url"
+                            id="linkedin"
+                            name="linkedin"
+                            placeholder="https://linkedin.com/in/username"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="submit-btn"
+                >
+                    Submit Portfolio
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
