@@ -21,7 +21,13 @@ export const myPortfolioData = {
     "skills": [
         "HTML|CSS|javascript|Node.js|Express.js|EJS|git|github"
     ],
-    "experience": "Web Development Intern - 2026. Worked on frontend and backend web development using HTML, CSS, JavaScript, Node.js, Express.js and EJS. Built and deployed web applications using GitHub and Render.",
+    "experience": [
+  {
+    "role": "Web Development Intern",
+    "year": "2026",
+    "description": "Worked on frontend and backend web development using HTML, CSS, JavaScript, Node.js, Express.js and EJS."
+  }
+],
     "projects": [
         {
             "title": "Personal Portfolio",
